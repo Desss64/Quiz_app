@@ -1,6 +1,6 @@
 # quiz_app
 
-A new Flutter project.
+An app where you select different topics/categories to quiz on.
 
 ## Getting Started
 
