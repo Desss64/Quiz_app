@@ -1,0 +1,88 @@
+[
+    {
+        "1": "What country won the first World Cup ?",
+        "2": "Who is the most decorated Olympian of all time ?",
+        "3": "Which of the following NFL coaches has the best playoff record ?",
+        "4": "What was the first sport televised in the U.S. ?",
+        "5": "Who was Muhammad Ali's opponent in the Rumble in the Jungle ?",
+        "6": "In golf, what is the term for a putter used off the green ?",
+        "7": "How long did Roger Bannister hold the world record in the mile ?",
+        "8": "What is the only city to win three major sports championships in the same year ?",
+        "9": "What is the diameter of a basketball hoop ?",
+        "10": "Who won the first Wimbledon ?"
+    },
+    {
+        "1": {
+            "a": "Uruguay",
+            "b": "Brazil",
+            "c": "Argentina",
+            "d": "Switzerland"
+        },
+        "2": {
+            "a": "Paavo Nurmi",
+            "b": "Michael Phelps",
+            "c": "Mary Lou Retton",
+            "d": "Carl Lewis"
+        },
+        "3": {
+            "a": "Barry Switzer",
+            "b": "Chuck Noll",
+            "c": "Jimmy Johnson",
+            "d": "Bill Belichick"
+        },
+        "4": {
+            "a": "Rugby",
+            "b": "Tennis",
+            "c": "Baseball",
+            "d": "Golf"
+        },
+        "5": {
+            "a": "Joe Frazier",
+            "b": "Trevor Berbick",
+            "c": "George Foreman",
+            "d": "Ken Norton"
+        },
+        "6": {
+            "a": "Danish Loft",
+            "b": "Wormburner",
+            "c": "Texas Wedge",
+            "d": "Flagstick"
+        },
+        "7": {
+            "a": "46 Hours",
+            "b": "46 Years",
+            "c": "46 Days",
+            "d": "46 Weeks"
+        },
+        "8": {
+            "a": "Detroit",
+            "b": "Dallas",
+            "c": "San Francisco",
+            "d": "New York"
+        },
+        "9": {
+            "a": "9 Inches",
+            "b": "12 Inches",
+            "c": "18 Inches",
+            "d": "15 Inches"
+        },
+        "10": {
+            "a": "C.G. Heathcote",
+            "b": "Spencer Gore",
+            "c": "William Marshall",
+            "d": "Frank Hadow"
+        }
+    },
+    {
+        "1": "Uruguay",
+        "2": "Michael Phelps",
+        "3": "Barry Switzer",
+        "4": "Baseball",
+        "5": "George Foreman",
+        "6": "Texas Wedge",
+        "7": "46 Days",
+        "8": "Detroit",
+        "9": "18 Inches",
+        "10": "Spencer Gore"
+    }
+]
