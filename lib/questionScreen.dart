@@ -94,17 +94,27 @@ class _ShowQuestionState extends State<ShowQuestion> {
   }
 
   int score = 0;
+  int firstEncounter = 1; //Makes sure correct answer is not counted more than once for each question
 
   void checkAnswer(String ans) {
-    //Increase score which each correct answer
-      if (myData[2][questionNum.toString()] == myData[1][questionNum.toString()][ans]) {
+    //Increase score with each correct answer
+      if (myData[2][questionNum.toString()] == myData[1][questionNum.toString()][ans] && firstEncounter == 1) {
         score++;
       }
 
-    setState(() {
+    setState(() { 
       btnColor[ans] = selected;
+
+      //once answer is chosen deselect any other answers
+      for( var k in btnColor.keys){
+        if(ans != k)
+        btnColor[k] = Colors.white;
+      }
+
       clicked = !clicked;
     });
+
+    firstEncounter++;
   }
 
   Widget answerOption(String ans) {
@@ -114,11 +124,6 @@ class _ShowQuestionState extends State<ShowQuestion> {
       child: MaterialButton(
         onPressed: () {
           checkAnswer(ans);
-          //ensures that user can change answer choice
-          if (clicked)
-            btnColor[ans] = selected;
-          else
-            btnColor[ans] = Colors.white;
         },
         child: Text(myData[1][questionNum.toString()][ans],
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24)),
